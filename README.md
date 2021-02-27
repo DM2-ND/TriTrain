@@ -5,7 +5,18 @@ Authors: Qingkai Zeng (ND), Wenhao Yu (ND), Mengxia Yu (ND), Tianwen Jiang (HIT)
 
 > This paper proposed a novel framework to introduce a “pre-fine tuning” step between pre-training and fine-tuning to enhance the NER related tasks on scientific domain.
 
+## Requirements
+A detailed dependencies list can be found in `requirements.txt` and can be installed by:
+
+```
+  pip install -r requirements.txt
+```
+
 ## Example of distant corpus
+There are two files for labeled distant corpus. One is `train.txt` which contains the sentences used in pre-fine-tuining. The other one is `train.dist` which contains the position of the automatically labeled concepts.
+
+> `train.txt` : We used neural network as a machine learning method. 
+> `train.dist` : 0 0 1 1 0 0 1 1 0 0
 
 ## Pre-Fine-tune a BERT model
 
@@ -15,6 +26,8 @@ Authors: Qingkai Zeng (ND), Wenhao Yu (ND), Mengxia Yu (ND), Tianwen Jiang (HIT)
 ```
 
 ## Fine-tuning a NER model
+
+Please put the BERT-based model after pre-fine-tuning in the `./NER_model/PFT` and update the parameters in `./NER_model/configs`. 
 ```
   cd NER_model
   sh train_local.sh
