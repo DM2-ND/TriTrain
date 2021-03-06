@@ -1,7 +1,7 @@
 # TriTrain
 Author: Qingkai Zeng (qzeng@nd.edu). EMNLP’20. Adaptive Scientific Named Entity Recognition (NER).
 
-[Tri-Train: Automatic Pre-Fine Tuning between Pre-Training and Fine-Tuning for SciNER](https://www.aclweb.org/anthology/2020.findings-emnlp.429.pdf)
+[Tri-Train: Automatic Pre-Fine Tuning between Pre-Training and Fine-Tuning for SciNER](https://www.aclweb.org/anthology/2020.findings-emnlp.429.pdf)  
 Authors: Qingkai Zeng (ND), Wenhao Yu (ND), Mengxia Yu (ND), Tianwen Jiang (HIT), Tim Weninger (ND), Meng Jiang (ND)
 
 > This paper proposed a novel framework to introduce a “pre-fine tuning” step between pre-training and fine-tuning to enhance the NER related tasks on scientific domain.
