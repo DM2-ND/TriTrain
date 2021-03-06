@@ -1,4 +1,5 @@
 # TriTrain
+Author: Qingkai Zeng (qzeng@nd.edu). EMNLP’20. Adaptive Scientific Named Entity Recognition (NER).
 
 [Tri-Train: Automatic Pre-Fine Tuning between Pre-Training and Fine-Tuning for SciNER](https://www.aclweb.org/anthology/2020.findings-emnlp.429.pdf)
 Authors: Qingkai Zeng (ND), Wenhao Yu (ND), Mengxia Yu (ND), Tianwen Jiang (HIT), Tim Weninger (ND), Meng Jiang (ND)
@@ -15,7 +16,7 @@ A detailed dependencies list can be found in `requirements.txt` and can be insta
 ## Example of distant corpus
 There are two files for labeled distant corpus. One is `train.txt` which contains the sentences used in pre-fine-tuining. The other one is `train.dist` which contains the position of the automatically labeled concepts.
 
-> `train.txt` : We used neural network as a machine learning method. 
+> `train.txt` : We used neural network as a machine learning method.  
 > `train.dist` : 0 0 1 1 0 0 1 1 0 0
 
 ## Pre-Fine-tune a BERT model
